@@ -2,7 +2,7 @@
 
 A sophisticated AI-powered research agent built with LangGraph that can answer questions by intelligently searching both Wikipedia and the web using DuckDuckGo, powered by Google's Gemini AI model.
 
-##SAMPLE OUTPUT
+## SAMPLE OUTPUT
 ![Screenshot 2025-06-24 113201](https://github.com/user-attachments/assets/660d3362-a1ee-44bf-98e9-66c20f1af01f)
 
 
