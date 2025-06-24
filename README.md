@@ -70,47 +70,7 @@ The agent automatically chooses the most appropriate search tool based on the qu
 - Google AI API key (Gemini)
 - Internet connection for Wikipedia and web searches
 
-##  Installation
 
-### 1. Clone or Download the Project
-```bash
-# If using git
-git clone <repository-url>
-cd langgraph-project
-
-# Or create the directory manually and add the files
-mkdir "langgraph project"
-cd "langgraph project"
-```
-
-### 2. Create Virtual Environment
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Windows PowerShell:
-.\venv\Scripts\Activate.ps1
-
-# On Windows Command Prompt:
-venv\Scripts\activate
-
-# On macOS/Linux:
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Set Up Environment Variables
-Create a `.env` file in the project root:
-```env
-GOOGLE_API_KEY=your_google_api_key_here
-```
-
-Get your Google API key from: https://makersuite.google.com/app/apikey
 
 ## Project Structure
 
