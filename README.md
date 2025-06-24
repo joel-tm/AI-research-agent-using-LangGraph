@@ -313,9 +313,6 @@ The agent's behavior is controlled by:
 - **Search Sources**: Wikipedia (encyclopedic) + DuckDuckGo (web/current events)
 
 
-##  License
-
-This project is open source. Feel free to use, modify, and distribute as needed.
 
 ## Acknowledgments
 
