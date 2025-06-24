@@ -137,8 +137,6 @@ Source: Web Search (DuckDuckGo)
 ==================================================
 ```
 
-##  Technical Details
-
 ### Dependencies
 
 The project uses the following key libraries:
@@ -160,15 +158,6 @@ The project uses the following key libraries:
 6. **Result Processing**: LLM processes search results and formulates an answer
 7. **Response**: Clean, formatted answer with source information is presented to the user
 
-### State Management
-
-The agent maintains state using a `TypedDict` structure:
-```python
-class AgentState(TypedDict):
-    messages: Annotated[List[BaseMessage], lambda x, y: x + y]
-```
-
-This preserves the entire conversation history, allowing the agent to maintain context across interactions.
 
 ### Error Handling
 
