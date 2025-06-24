@@ -231,7 +231,6 @@ Modify the maximum steps to prevent infinite loops:
 max_steps = 10  # Adjust as needed
 ```
 
-
 ### Debug Mode
 
 For detailed debugging, use the verbose function:
@@ -239,27 +238,6 @@ For detailed debugging, use the verbose function:
 # In agent.py, replace run_research_agent with:
 run_research_agent_verbose("your question")
 ```
-
-##  Development
-
-### Adding New Tools
-
-To add new tools to the agent:
-
-1. **Import the tool**:
-   ```python
-   from langchain_community.tools import YourNewTool
-   ```
-
-2. **Create tool instance**:
-   ```python
-   your_tool = YourNewTool()
-   ```
-
-3. **Add to tools list**:
-   ```python
-   tools = [wikipedia_tool, your_tool]
-   ```
 
 ### Modifying Agent Behavior
 
@@ -272,19 +250,11 @@ The agent's behavior is controlled by:
 
 - **Average Response Time**: 3-7 seconds per query (depending on search complexity)
 - **API Calls**: 1-3 Gemini API calls per question
-- **Memory Usage**: ~150-250MB (including dependencies)
 - **Supported Query Types**: Encyclopedic questions, current events, definitions, explanations, recent news
 - **Search Sources**: Wikipedia (encyclopedic) + DuckDuckGo (web/current events)
 
 
 
-## Acknowledgments
-
-- **LangChain**: For the excellent LLM framework
-- **Google AI**: For the Gemini API
-- **Wikipedia**: For providing free access to encyclopedic knowledge
-- **DuckDuckGo**: For privacy-focused web search capabilities
-- **LangGraph**: For graph-based workflow capabilities
 
 
 ## Future Enhancements
